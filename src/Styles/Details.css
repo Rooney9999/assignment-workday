@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=__LexendFont_7838d2&display=swap');
+
+.details{
+    font-family: '__LexendFont_7838d2', sans-serif;
+}
+
+.applicant{
+    text-align: left;
+}
+.experience p{
+    margin-bottom: 0px;
+}
+.minimum{
+    color: grey;
+    font-weight: 600;
+    font-size: 13px;
+}
+.location{
+    font-size: 12px;
+    font-weight: 500;
+}
+.easy {
+    width: 90%;
+    background-color: rgb(85, 239, 196);
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    padding: 8px 18px;
+    border: none;
+    border-radius: 10px;
+    margin: 6px auto;
+}
+.unlock {
+    width: 90%;
+    background-color: #4943DA;
+    font-weight: 500;
+    padding: 8px 18px;
+    border: none;
+    border-radius: 10px;
+    margin: 6px auto;
+    color: white;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+.thunder{
+    color: #FF822D;
+}
+.about-company{
+    font-weight: 500;
+}
+.about-us{
+    font-weight: 600;
+    font-size: 14px;
+}
+.about-details{
+    font-size: 14px;
+}
+.year{
+    font-size: 14px;
+}
+
+.blurring {
+    height: 377px;
+    filter: blur(0px);
+    background-image: linear-gradient(rgb(255 255 255 / 18%), rgb(255 255 255));
+    margin-top: -395px;
+}
+
+.unlock img {
+    height: 30px;
+    border-radius: 50%;
+    filter: blur(1px);
+}
+
+.unlock span{
+    font-size: 14px;
+}
+.min-salary{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.views{
+    cursor: pointer;
+    color: rgb(73, 67, 218);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+.close-button {
+    position: absolute;
+    top: 1rem;
+    right: 120px;
+    background: none;
+    border: none;
+    font-size: 32px;
+    cursor: pointer;
+    color: #fff;
+    z-index: 1000;
+}
+
